@@ -1,0 +1,15 @@
+name: 'Better Wait Action'
+description: 'Simple Wait Action with sleep'
+inputs:
+  time:  # time to wait
+    description: 'Sleep time'
+    required: true
+    default: '10s'
+outputs:
+  time: # id of output
+    description: 'Sleep end time'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.time }}
