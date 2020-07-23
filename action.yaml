@@ -1,5 +1,6 @@
 name: 'Better Wait Action'
 description: 'Simple Wait Action with sleep'
+icon: clock
 inputs:
   time:  # time to wait
     description: 'Sleep time'
