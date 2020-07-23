@@ -1,6 +1,8 @@
 name: 'Better Wait Action'
 description: 'Simple Wait Action with sleep'
-icon: clock
+branding:
+  icon: 'clock'
+  color: 'green'
 inputs:
   time:  # time to wait
     description: 'Sleep time'
