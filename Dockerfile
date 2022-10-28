@@ -5,10 +5,7 @@ LABEL "com.github.actions.description"="Very simple action to sleep for an amoun
 LABEL "com.github.actions.icon"="clock"
 LABEL "com.github.actions.color"="purple"
 
-LABEL version="0.1.0"
-LABEL repository="https://github.com/jakejarvis/wait-action"
-LABEL homepage="https://jarv.is/"
-LABEL maintainer="Jake Jarvis <jake@jarv.is>"
+LABEL maintainer="LnkAsia Techsol LLP"
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
