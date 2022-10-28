@@ -13,12 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Sleep for 30 seconds
-      uses: whatnick/wait-action@master
+      uses: dhaval210/wait-action@master
       with:
         time: '30s'
 ```
 
-
-## License
-
-This project is distributed under the [MIT license](LICENSE.md).
